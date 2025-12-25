@@ -1,6 +1,7 @@
 # EAN-13 Barcode Generator  
 ### A React & Vite Frontend Application
-
+---
+🔗 Live Demo: https://ean13-barcode-generator.netlify.app/
 ---
 
 ## Abstract
