@@ -1,0 +1,91 @@
+.barcode-page{
+  min-height: 100vh;
+  padding: 40px 18px;
+  background: #1e2327;
+  color: #fff;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.title{
+  max-width: 900px;
+  margin: 0 auto 22px auto;
+  font-size: 44px;
+  line-height: 1.1;
+  font-weight: 800;
+}
+
+.title span{
+  color: #f3b51b;
+}
+
+.panel{
+  max-width: 900px;
+  margin: 0 auto 18px auto;
+  background: #111517;
+  border: 1px solid #30373d;
+  border-radius: 14px;
+  padding: 18px;
+}
+
+.label{
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #f3b51b;
+}
+
+.row{
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.input{
+  flex: 1;
+  min-width: 260px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #3b444c;
+  background: #0b0f11;
+  color: #fff;
+  font-size: 16px;
+}
+
+.btn{
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #f3b51b;
+  background: transparent;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn:disabled{
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.hint{
+  margin: 12px 0 0 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.hint.ok{ color: #8ef0a5; }
+.hint.bad{ color: #ff8f8f; }
+
+.barcode-card{
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 18px;
+  border: 6px solid #0b0f11;
+}
+
+.barcode-svg{
+  width: 100%;
+  height: auto;
+  display: block;
+}
